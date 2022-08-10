@@ -1,3 +1,10 @@
 //Projeto Agrinho
 
-fyfytytryftyfyfyftyfyftyfyfytfyftytyfty
+Criador:
+nilo
+
+Colaboradores:
+Vitor
+Carlos
+Izadora
+Rafaela
