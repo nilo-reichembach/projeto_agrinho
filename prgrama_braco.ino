@@ -81,3 +81,8 @@ void loop(){
   delay(100);
 
 }
+
+// motor 4 porta 4 garra de 36 a 52
+// motor 3 porta 3 giro de 0 a 180
+// motor 2 porta 2 elevacao de 100 a 170
+// motor 1 porta 1 agarrar de 55 a 160
