@@ -1,10 +1,5 @@
-Projeto Agrinho
+<h1> Projeto Agrinho </h1>
 
-Criador:
-Nilo
+<h2>Criador: Nilo</h2>
 
-Colaboradores:
-Vitor
-Carlos
-Isadora
-Rafaela
+<p>Colaboradores: Vitor, Carlos, Isadora, Rafaela</p>
