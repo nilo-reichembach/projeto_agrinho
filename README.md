@@ -6,5 +6,5 @@ nilo
 Colaboradores:
 Vitor
 Carlos
-Izadora
+Isadora
 Rafaela
