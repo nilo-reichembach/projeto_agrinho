@@ -38,10 +38,10 @@ void setup() {
 void loop(){
 
   // leitura dos potenciometros
-  motor1 = map(analogRead(pot1),0,1023,0,180);
-  motor2 = map(analogRead(pot2),0,1023,0,180);
-  motor3 = map(analogRead(pot3),0,1023,85,180);
-  motor4 = map(analogRead(pot4),0,1023,0,43);
+  motor1 = map(analogRead(pot1),0,1023,36,52);
+  motor2 = map(analogRead(pot2),0,1023,100,170);
+  motor3 = map(analogRead(pot3),0,1023,0,180);
+  motor4 = map(analogRead(pot4),0,1023,55,160);
 
   // posicionamento dos potenciometros 
   serv1.write(motor1);
@@ -58,6 +58,8 @@ void loop(){
   Serial.print(analogRead(pot1));
   Serial.print(" Angulo Motor1:");
   Serial.println(motor1);
+
+  s.write();
 
   Serial.print("Pot2:");
   Serial.print(analogRead(pot2));
