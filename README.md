@@ -1,9 +1,13 @@
-<body style="background-color: #eefce9">
-<marquee width="200"><h1 style="color: green"> Projeto Agrinho </h1></marquee>
+<!docktype html>
+<html>
+<head>
 
-<h2> Criador: Nilo</h2>
 
-<h2>Colaboradores: Vitor, Carlos, Isadora, Rafaela</h2>
-
-<img ID="agrinho" scr="download.png">
+</head>
 <body>
+
+  <h1>Bem vindo(a) ao meu site :D</h1>
+
+</body>
+
+</html>

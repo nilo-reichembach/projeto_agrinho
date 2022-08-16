@@ -59,7 +59,7 @@ void loop(){
   Serial.print(" Angulo Motor1:");
   Serial.println(motor1);
 
-  s.write();
+  S.write();
 
   Serial.print("Pot2:");
   Serial.print(analogRead(pot2));
