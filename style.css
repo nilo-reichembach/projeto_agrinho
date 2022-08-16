@@ -1,3 +1,7 @@
-body{background-color: purple;}
-h1{font-family: komoda;}
+
+
+body{width: 400px;
+    height: 300px;
+    background-image: url(logolc.png);}
+h1{font-family: Verdana, Geneva, Tahoma, sans-serif;}
 h2{font-family: cursive;}
