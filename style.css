@@ -3,5 +3,9 @@
 body{width: 400px;
     height: 300px;
     background-image: url(Wallpaper.jpeg);}
-h1{font-family: Verdana, Geneva, Tahoma, sans-serif;}
-h2{font-family: cursive;}
+h1{font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align: center;
+color: lawngreen;}
+h2{font-family: cursive;
+text-align: center;
+color: limegreen;}
