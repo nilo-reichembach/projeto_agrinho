@@ -1,15 +1,12 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <link rel="stylesheet" href="style.css">
+# Projeto Agrinho 
 
-</head>
-<body>
+## Criado por: Nilo Reichembach; Colaboradores: Vitor Gabriel,
 
-  <h1>Bem vindo(a) ao nosso projeto :D</h1>
-  <h2>Criado por: Nilo</h2>
-  <h2>Colaboradores: Vitor</h2>
-
-</body>
-
-</html>
+## Status do projeto: Em construção
+<table>
+<ul>
+<li>Servo.h</li>
+<li>AFMotor.h</li>
+<li>UltraSonic.h</li>
+</ul>
+</table>
