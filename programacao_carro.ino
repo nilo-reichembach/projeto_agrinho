@@ -63,40 +63,47 @@ void loop() {
  
  delay(500);
  
- re(1000);
+ //re(1000);
  
- delay(500);
+ //delay(500);
 
  
-giro_centro_antihorario(1000);
+//giro_centro_antihorario(1000);
 
-delay(500);
+//delay(500);
 
-giro_centro_horario(1000);
+//giro_centro_horario(1000);
 
-delay(500);
+//delay(500);
 
-giro_roda_antihorario(1000);
+//giro_roda_antihorario(1000);
 
-delay(500);
+//delay(500);
 
-giro_roda_horario(1000);
+//giro_roda_horario(1000);
 
-delay(5000);
+//delay(5000);
+
+distancia = Sensor.read();
 }
 
-void frente(int distancia)
+void frente(int distacia)
 {
-motor2.run(FORWARD);
-motor3.run(FORWARD);
-delay(tempo);
-motor2.run(RELEASE);
-motor3.run(RELEASE);
+  if(distancia = 50){
+    motor2.run(RELEASE);
+    motor3.run(RELEASE)
+  } else {
+    motor2.run(FORWARD);
+    motor3.run(FORWARD);
+
+  }
+//motor2.run(FORWARD);
+//motor3.run(FORWARD);
+//delay(tempo);
+//motor2.run(RELEASE);
+//motor3.run(RELEASE);
 }
 
-void distancia (){
-  distancia = realese.run(A0)
-}
 
 void re(int tempo)
 {
