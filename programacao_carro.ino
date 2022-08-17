@@ -1,13 +1,23 @@
 
-#include <AFMotor.h>
-#include <Servo.h>
-AF_DCMotor motor2(2); 
+#include <AFMotor.h>    //funcionamento do carro
+#include <Servo.h>      //funcionamento do braço
+#include <Ultrasonic.h> // funcionamento do sensor
 
+AF_DCMotor motor2(2);   // define os motores do carro 
 AF_DCMotor motor3(3); 
+
+int pino_Trig = 2;      // define os pinos de funcionamento do sensor ultrassônico
+int pino_Echo = 3;
+
+Ultrasonic Sensor(pino_Trig, pino_Echo);
+
+Servo serv1,serv2,serv3,serv4;   //define os motores do braço como servo 1 ...
+
+int distancia;   // inclui uma variável para armazenar os valores de distância.
 
 
 void setup() {
-r2.run(RELEASE);
+motor2.run(RELEASE);
 motor3.run(RELEASE);
 }
 /* Função que gira em torno do centro no sentido horário pelo
@@ -49,7 +59,7 @@ void loop() {
  motor2.setSpeed(180); 
  motor3.setSpeed(180);
  
- frente(1000);
+ frente(distacia);
  
  delay(500);
  
@@ -75,13 +85,17 @@ giro_roda_horario(1000);
 delay(5000);
 }
 
-void frente(int tempo)
+void frente(int distancia)
 {
 motor2.run(FORWARD);
 motor3.run(FORWARD);
 delay(tempo);
 motor2.run(RELEASE);
 motor3.run(RELEASE);
+}
+
+void distancia (){
+  distancia = realese.run(A0)
 }
 
 void re(int tempo)
