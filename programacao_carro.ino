@@ -11,6 +11,11 @@ int pino_Echo = 3;
 
 Ultrasonic Sensor(pino_Trig, pino_Echo);
 
+  serv1.attach(pinServ1);
+  serv2.attach(pinServ2);
+  serv3.attach(pinServ3);
+  serv4.attach(pinServ4);
+
 Servo serv1,serv2,serv3,serv4;   //define os motores do braço como servo 1 ...
 
 int distancia;   // inclui uma variável para armazenar os valores de distância.
@@ -92,6 +97,8 @@ void frente(int distacia)
   if(distancia = 50){
     motor2.run(RELEASE);
     motor3.run(RELEASE)
+
+
   } else {
     motor2.run(FORWARD);
     motor3.run(FORWARD);
